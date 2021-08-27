@@ -139,10 +139,9 @@ function build() {
 		}
 	});
 	console.log("Copy File Successful.");
-
 	fs.readdirSync(__dirname + path.sep + "note").forEach((name) => {
 		console.log("Read Dir Successful.");
-		fs.writeFileSync(publishDir + name, md.render(fs.readFileSync(__dirname + path.sep + "note" + path.sep + name, "utf-8")), {
+		fs.writeFileSync(publishDir + name, `<link rel="stylesheet" href="./css/yue.css">${md.render(fs.readFileSync(__dirname + path.sep + "note" + path.sep + name, "utf-8"))}`, {
 			encoding: "utf8",
 			flag: "w+"
 		});
