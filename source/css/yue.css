@@ -1,0 +1,253 @@
+/**
+ * yue.css
+ *
+ * yue.css is designed for readable content.
+ *
+ * Copyright (c) 2013 - 2017 by Hsiaoming Yang.
+ */
+
+body {
+	font: 400 18px/1.62 -apple-system, BlinkMacSystemFont, "Segoe UI",
+		"Droid Sans", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB",
+		"Droid Sans Fallback", "Microsoft YaHei", sans-serif;
+	color: #444443;
+	padding: 0.4em 1em 6em;
+	background: #f9f9f7;
+}
+
+body ::-moz-selection {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+body ::selection {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans",
+		"Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback",
+		"Microsoft YaHei", sans-serif;
+	color: #222223;
+}
+body h1 {
+	font-size: 1.8em;
+	margin: 0.67em 0;
+}
+body > h1 {
+	margin-top: 0;
+	font-size: 2em;
+}
+body h2 {
+	font-size: 1.5em;
+	margin: 0.83em 0;
+}
+body h3 {
+	font-size: 1.17em;
+	margin: 1em 0;
+}
+body h4,
+body h5,
+body h6 {
+	font-size: 1em;
+	margin: 1.6em 0 1em 0;
+}
+body h6 {
+	font-weight: 500;
+}
+body p {
+	margin-top: 0;
+	margin-bottom: 1.24em;
+}
+body a {
+	color: #111;
+	word-wrap: break-word;
+	-webkit-text-decoration-color: rgba(0, 0, 0, 0.4);
+	text-decoration-color: rgba(0, 0, 0, 0.4);
+}
+body a:hover {
+	color: #555;
+	-webkit-text-decoration-color: rgba(0, 0, 0, 0.6);
+	text-decoration-color: rgba(0, 0, 0, 0.6);
+}
+body h1 a,
+body h2 a,
+body h3 a {
+	text-decoration: none;
+}
+body strong,
+body b {
+	font-weight: 700;
+	color: #222223;
+}
+body em,
+body i {
+	font-style: italic;
+	color: #222223;
+}
+body img {
+	max-width: 100%;
+	height: auto;
+	margin: 0.2em 0;
+}
+body a img {
+	/* Remove border on IE */
+	border: none;
+}
+body figure {
+	position: relative;
+	clear: both;
+	outline: 0;
+	margin: 10px 0 30px;
+	padding: 0;
+	min-height: 100px;
+}
+body figure img {
+	display: block;
+	max-width: 100%;
+	margin: auto auto 4px;
+	box-sizing: border-box;
+}
+body figure figcaption {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	margin-top: 10px;
+	font-weight: 400;
+	font-size: 14px;
+	color: #666665;
+}
+body figure figcaption a {
+	text-decoration: none;
+	color: #666665;
+}
+body hr {
+	display: block;
+	width: 14%;
+	margin: 40px auto 34px;
+	border: 0 none;
+	border-top: 3px solid #dededc;
+}
+body blockquote {
+	margin: 0 0 1.64em 0;
+	border-left: 3px solid #dadada;
+	padding-left: 12px;
+	color: #666664;
+}
+body blockquote a {
+	color: #666664;
+}
+body ul,
+body ol {
+	margin: 0 0 24px 6px;
+	padding-left: 16px;
+}
+body ul {
+	list-style-type: square;
+}
+body ol {
+	list-style-type: decimal;
+}
+body li {
+	margin-bottom: 0.2em;
+}
+body li ul,
+body li ol {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 14px;
+}
+body li ul {
+	list-style-type: disc;
+}
+body li ul ul {
+	list-style-type: circle;
+}
+body li p {
+	margin: 0.4em 0 0.6em;
+}
+body .unstyled {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+body code,
+body tt {
+	color: #808080;
+	font-size: 0.96em;
+	background-color: #f9f9f7;
+	padding: 1px 2px;
+	border: 1px solid #eee;
+	border-radius: 3px;
+	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+	word-wrap: break-word;
+}
+body pre {
+	margin: 1.64em 0;
+	padding: 7px;
+	border: none;
+	border-left: 3px solid #dadada;
+	padding-left: 10px;
+	overflow: auto;
+	line-height: 1.5;
+	font-size: 0.96em;
+	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+	color: #4c4c4c;
+	background-color: #f9f9f7;
+}
+body pre code,
+body pre tt {
+	color: #4c4c4c;
+	border: none;
+	background: none;
+	padding: 0;
+}
+body table {
+	width: 100%;
+	max-width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-bottom: 1.5em;
+	font-size: 0.96em;
+	box-sizing: border-box;
+}
+body th,
+body td {
+	text-align: left;
+	padding: 4px 8px 4px 10px;
+	border: 1px solid #dadada;
+}
+body td {
+	vertical-align: top;
+}
+body tr:nth-child(even) {
+	background-color: #efefee;
+}
+body iframe {
+	display: block;
+	max-width: 100%;
+	margin-bottom: 30px;
+}
+body figure iframe {
+	margin: auto;
+}
+body table pre {
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: none;
+}
+@media (min-width: 1100px) {
+	body blockquote {
+		margin-left: -24px;
+		padding-left: 20px;
+		border-width: 4px;
+	}
+	body blockquote blockquote {
+		margin-left: 0;
+	}
+}
